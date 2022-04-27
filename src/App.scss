@@ -1,0 +1,27 @@
+.default-container {
+  width: 500px;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.main-box {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #a19696;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  &>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+input {
+  outline: none;
+  box-sizing: border-box;
+}
